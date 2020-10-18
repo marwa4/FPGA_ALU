@@ -71,7 +71,7 @@ Before the streamlined design, the system can only use a slower clock, after str
 
 The slack has improved to negative 19 nanoseconds three times better than before, and the Fmax is now arround 37 MHz.
 Much improved.
-Via Timing report, the limiting critical path isnow wihtin the add_32 blcok and not the SQRT function.
+Via Timing report, the limiting critical path is now wihtin the add_32 blcok and not the SQRT function.
 
 
 
@@ -88,12 +88,13 @@ In altera FPGAs, the pin assignements can be performed in one of 5 ways:
 
 
 Note that each pin shape, color and text provide information about the properties of that pin. 
-For example, the unique colors help to identify each IO bank 
-Triangles represent power and ground pins
-Circles represent special functions
-Squares are clock pins
-Pentagones are for JPEG pins
-hexagones for general IO pins
+For example:
+*The unique colors help to identify each IO bank 
+*Triangles represent power and ground pins
+*Circles represent special functions
+*Squares are clock pins
+*Pentagones are for JPEG pins
+*hexagones for general IO pins
 
 Pin assignement could be handeled via the pin planner:
 
