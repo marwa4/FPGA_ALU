@@ -1,0 +1,7 @@
+PowerPlay Early Power Estimator File Generator Status : Successful - Mon Jan 02 13:02:21 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : pipemult2
+Top-level Entity Name : pipemult
+Family : MAX 10
+Device : 10M08DAF484C8GES
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

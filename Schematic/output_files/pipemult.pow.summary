@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Thu Dec 29 00:52:18 2016
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : pipemult
+Top-level Entity Name : pipemult
+Family : MAX 10
+Device : 10M08DAF484C8GES
+Power Models : Final
+Total Thermal Power Dissipation : 53.70 mW
+Core Dynamic Thermal Power Dissipation : 4.06 mW
+Core Static Thermal Power Dissipation : 39.77 mW
+I/O Thermal Power Dissipation : 9.88 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

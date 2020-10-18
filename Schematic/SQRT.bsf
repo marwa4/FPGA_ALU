@@ -1,0 +1,65 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 248 128)
+	(text "SQRT" (rect 102 0 143 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 0 64)
+		(input)
+		(text "radical[31..0]" (rect 0 0 73 14)(font "Arial" (font_size 8)))
+		(text "radical[31..0]" (rect 4 48 77 63)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 88 64)(line_width 3))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "clk" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "clk" (rect 4 72 19 87)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 88 88))
+	)
+	(port
+		(pt 248 64)
+		(output)
+		(text "q[15..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "q[15..0]" (rect 201 48 243 63)(font "Arial" (font_size 8)))
+		(line (pt 248 64)(pt 136 64)(line_width 3))
+	)
+	(port
+		(pt 248 88)
+		(output)
+		(text "remainder[16..0]" (rect 0 0 92 14)(font "Arial" (font_size 8)))
+		(text "remainder[16..0]" (rect 151 72 243 87)(font "Arial" (font_size 8)))
+		(line (pt 248 88)(pt 136 88)(line_width 3))
+	)
+	(drawing
+		(line (pt 0 0)(pt 250 0))
+		(line (pt 250 0)(pt 250 130))
+		(line (pt 0 130)(pt 250 130))
+		(line (pt 0 0)(pt 0 130))
+		(line (pt 88 40)(pt 136 40))
+		(line (pt 136 40)(pt 136 112))
+		(line (pt 88 112)(pt 136 112))
+		(line (pt 88 40)(pt 88 112))
+	)
+)

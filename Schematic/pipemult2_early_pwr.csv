@@ -1,0 +1,37 @@
+EARLY_POWER_ESTIMATOR_FILE_FORMAT_VERSION,6
+QUARTUS_II_VERSION,16.1.0 Build 196 10/24/2016 SJ Lite Edition
+PROJECT,"pipemult"
+REVISION,"pipemult2"
+PROJECT_FILE,"C:/AlteraPrj/pipemultQP16_1/Schematic/pipemult.qpf"
+TIME,"Mon Jan 02 13:02:21 2017"
+TIME_SECONDS,"1483387341"
+FAMILY,"MAX 10"
+DEVICE,"10M08DA"
+PACKAGE,"FBGA"
+PART,"10M08DAF484C8GES"
+POWER_USE_DEVICE_CHARACTERISTICS,"TYPICAL"
+POWER_AUTO_COMPUTE_TJ,"ON"
+POWER_TJ_VALUE,"25"
+POWER_USE_CUSTOM_COOLING_SOLUTION,"OFF"
+MIN_JUNCTION_TEMPERATURE,"0"
+MAX_JUNCTION_TEMPERATURE,"85"
+POWER_PRESET_COOLING_SOLUTION,"23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+POWER_BOARD_THERMAL_MODEL,"NONE (CONSERVATIVE)"
+POWER_USE_TA_VALUE,"25.00"
+POWER_BOARD_TEMPERATURE,"-1.00"
+POWER_OJC_VALUE,"11.20"
+POWER_OCS_VALUE,"0.10"
+POWER_OSA_VALUE,"3.50"
+POWER_OJB_VALUE,"-1.00"
+VCCIO,,1A,2.50,1B,2.50,2,2.50,3,2.50,4,2.50,5,2.50,6,2.50,7,2.50,8,2.50,
+RAIL_VOLTAGES,,VCC,1.200,VCCA,2.500,VCCD_PLL,1.200,VCCINT,1.200,VCCA_ADC,2.500,
+
+
+BLOCK,M9K,count,1,ram_mode,"Simple Dual Port",ram_read_during_write,"new",ram_porta_fmax,"100",ram_porta_data_width,"36",ram_porta_addr_width,"5",ram_porta_depth,"32",ram_porta_ena_static_prob,"1.000000",ram_porta_write_ena_static_prob,"0.500000",ram_porta_read_ena_static_prob,"0.000000",avg_ram_porta_output_toggle_ratio,"0.000000",ram_portb_fmax,"100",ram_portb_data_width,"36",ram_portb_addr_width,"5",ram_portb_ena_static_prob,"1.000000",ram_portb_write_ena_static_prob,"0.000000",ram_portb_read_ena_static_prob,"1.000000",avg_ram_portb_output_toggle_ratio,"0.062500"
+BLOCK,Embedded multiplier output,count,1,avg_toggle_rate,"50000000.000000",avg_toggle_rate_ratio,"0.500000",avg_fanout,"1.000000",fmax,"100",mac_mode,"Simple Multiplier",num_multipliers,"1",mac_width,"9",input_reg_used,"1",pipe_reg_used,"0",second_adder_reg_used,"0",output_reg_used,"1"
+BLOCK,Combinational cell,count,1,avg_toggle_rate,"0.000000",avg_toggle_rate_ratio,"0.000000",avg_fanout,"10.000000",fmax,"0"
+BLOCK,Clock control block,count,1,avg_toggle_rate,"200000000.000000",avg_toggle_rate_ratio,"2.000000",avg_fanout,"24.000000",fmax,"100",global_type,"GCLK",global_clk_ena_static_prob,"1",global_type_usage,"Clock",num_raw_fanout,"24",num_lc_comb_fanout,"0",num_lc_ff_fanout,"21",sum_lc_ff_clkena_static_prob,"21",avg_lc_ff_clk_ena_static_prob,"1",num_pin_fanout,"0",num_m512_fanout,"0",num_m4k_fanout,"1",num_mram_fanout,"0",num_mlab_fanout,"0",num_dsp_fanout,"1",num_dsp9x9_fanout,"1",num_misc_fanout,"0"
+BLOCK,User Flash Memory,count,1,ufm_read_static_prob,"0",ufm_osc_enable_static_prob,"1"
+BLOCK,Register cell,count,5,avg_toggle_rate,"12500000.000000",avg_toggle_rate_ratio,"0.125000",avg_fanout,"1.000000",fmax,"100"
+BLOCK,I/O pad,count,28,avg_toggle_rate,"19196428.571429",avg_toggle_rate_ratio,"0.191964",avg_fanout,"1.000000",fmax,"100",io_mode,"INPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"OFF",output_termination_sp,"0",output_ena_static_prob,"0",nsleep_static_prob,"1",vod,"-1",slew_rate,"-1"
+BLOCK,I/O pad,count,16,avg_toggle_rate,"6250000.000000",avg_toggle_rate_ratio,"0.062500",avg_fanout,"0.000000",fmax,"100",io_mode,"OUTPUT_PIN",output_load,"0",io_standard,"2_5",drive_strength,"DEFAULT",is_ddr,"0",input_termination,"OFF",output_termination,"SERIES_50_OHMS_WITHOUT_CALIBRATION",output_termination_sp,"0",output_ena_static_prob,"1",nsleep_static_prob,"0",vod,"-1",slew_rate,"2"

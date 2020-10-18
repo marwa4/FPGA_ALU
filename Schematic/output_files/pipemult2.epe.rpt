@@ -1,0 +1,148 @@
+PowerPlay Early Power Estimator File Generator report for pipemult2
+Mon Jan 02 13:02:22 2017
+Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. PowerPlay Early Power Estimator File Generator Summary
+  3. PowerPlay Early Power Estimator File Generator Settings
+  4. PowerPlay Early Power Estimator File Generator Generated Files
+  5. Confidence Metric Details
+  6. Signal Activities
+  7. PowerPlay Early Power Estimator File Generator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Summary                                                   ;
++-------------------------------------------------------+--------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Status ; Successful - Mon Jan 02 13:02:21 2017            ;
+; Quartus Prime Version                                 ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition      ;
+; Revision Name                                         ; pipemult2                                        ;
+; Top-level Entity Name                                 ; pipemult                                         ;
+; Family                                                ; MAX 10                                           ;
+; Device                                                ; 10M08DAF484C8GES                                 ;
+; Power Estimation Confidence                           ; Low: user provided insufficient toggle rate data ;
++-------------------------------------------------------+--------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Settings                                                                            ;
++----------------------------------------------------------------------------+---------------------------------------+---------------+
+; Option                                                                     ; Setting                               ; Default Value ;
++----------------------------------------------------------------------------+---------------------------------------+---------------+
+; Use smart compilation                                                      ; Off                                   ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                                    ; On            ;
+; Enable compact report table                                                ; Off                                   ; Off           ;
+; Default Power Input I/O Toggle Rate                                        ; 12.5%                                 ; 12.5%         ;
+; Preset Cooling Solution                                                    ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ;               ;
+; Board thermal model                                                        ; None (CONSERVATIVE)                   ;               ;
+; Default Power Toggle Rate                                                  ; 12.5%                                 ; 12.5%         ;
+; Use vectorless estimation                                                  ; On                                    ; On            ;
+; Use Input Files                                                            ; Off                                   ; Off           ;
+; Filter Glitches in VCD File Reader                                         ; On                                    ; On            ;
+; Power Analyzer Report Signal Activity                                      ; Off                                   ; Off           ;
+; Power Analyzer Report Power Dissipation                                    ; Off                                   ; Off           ;
+; Device Power Characteristics                                               ; TYPICAL                               ; TYPICAL       ;
+; Automatically Compute Junction Temperature                                 ; On                                    ; On            ;
+; Specified Junction Temperature                                             ; 25                                    ; 25            ;
+; Ambient Temperature                                                        ; 25                                    ; 25            ;
+; Use Custom Cooling Solution                                                ; Off                                   ; Off           ;
+; Board Temperature                                                          ; 25                                    ; 25            ;
++----------------------------------------------------------------------------+---------------------------------------+---------------+
+
+
++------------------------------------------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Generated Files                           ;
++----------------------------------------------------------------+-------------------------+
+; Description                                                    ; Filename                ;
++----------------------------------------------------------------+-------------------------+
+; Design summary for PowerPlay Early Power Estimator spreadsheet ; pipemult2_early_pwr.csv ;
++----------------------------------------------------------------+-------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Confidence Metric Details                                                                                                                       ;
++----------------------------------------------------------------------------------------+-------------+------------+-------------+---------------+
+; Data Source                                                                            ; Total       ; Pin        ; Registered  ; Combinational ;
++----------------------------------------------------------------------------------------+-------------+------------+-------------+---------------+
+; Simulation (from file)                                                                 ;             ;            ;             ;               ;
+;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)    ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)    ; 0 (0.0%)      ;
+;                                                                                        ;             ;            ;             ;               ;
+; Node, entity or clock assignment                                                       ;             ;            ;             ;               ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 2 (1.1%)    ; 1 (1.9%)   ; 0 (0.0%)    ; 1 (1.2%)      ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 2 (1.1%)    ; 1 (1.9%)   ; 0 (0.0%)    ; 1 (1.2%)      ;
+;                                                                                        ;             ;            ;             ;               ;
+; Vectorless estimation                                                                  ;             ;            ;             ;               ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 139 (79.4%) ; 17 (32.7%) ; 37 (100.0%) ; 85 (98.8%)    ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 5 (2.9%)    ; 1 (1.9%)   ; 0 (0.0%)    ; 4 (4.7%)      ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 139 (79.4%) ; 17 (32.7%) ; 37 (100.0%) ; 85 (98.8%)    ;
+;                                                                                        ;             ;            ;             ;               ;
+; Default assignment                                                                     ;             ;            ;             ;               ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 27 (15.4%)  ; 27 (51.9%) ; 0 (0.0%)    ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 34 (19.4%)  ; 34 (65.4%) ; 0 (0.0%)    ; 0 (0.0%)      ;
+;                                                                                        ;             ;            ;             ;               ;
+; Assumed 0                                                                              ;             ;            ;             ;               ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 7 (4.0%)    ; 7 (13.5%)  ; 0 (0.0%)    ; 0 (0.0%)      ;
++----------------------------------------------------------------------------------------+-------------+------------+-------------+---------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Activities                                                                                                                           ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+; Signal ; Type ; Toggle Rate (millions of transitions / sec) ; Toggle Rate Data Source ; Static Probability ; Static Probability Data Source ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+(1) The "Signal Activity" Table has been hidden. To show this table, please select the "Write signal activities to report file" option under "PowerPlay Power Analyzer Settings".
+
+
++---------------------------------------------------------+
+; PowerPlay Early Power Estimator File Generator Messages ;
++---------------------------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime PowerPlay Early Power Estimator File Generator
+    Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+    Info: Processing started: Mon Jan 02 13:02:17 2017
+Info: Command: quartus_pow --read_settings_files=on --write_settings_files=off pipemult -c pipemult2 --estimate_power=off --output_epe=pipemult2_early_pwr.csv
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332104): Reading SDC File: 'pipemult2.sdc'
+Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQuest to see clock uncertainties.
+Info (223000): Starting Vectorless Power Activity Estimation
+Info (223001): Completed Vectorless Power Activity Estimation
+Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
+Info (214002): Created PowerPlay Early Power Estimation file "pipemult2_early_pwr.csv"
+Info (215029): No power estimate will be produced.
+Info (215049): Average toggle rate for this design is 21.250 millions of transitions / sec
+Info: Quartus Prime PowerPlay Early Power Estimator File Generator was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 626 megabytes
+    Info: Processing ended: Mon Jan 02 13:02:22 2017
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:02
+
+
