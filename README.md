@@ -101,7 +101,7 @@ Pin assignement could be handeled via the pin planner:
 
 or the assignement editor:
 
-![](Figures/assignementedit.jpg)
+![](Figures/assignmntedit.jpg)
 
 
 
